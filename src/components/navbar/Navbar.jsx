@@ -9,16 +9,21 @@ const Navbar = () => {
   return (
     <div className={styles.container}>
       <div className={styles.social}>
-        <Image src="/medium.png" alt="medium" width={30} height={30} />
-        <Image src="/twitter.png" alt="twitter" width={25} height={25} />
-        <Image src="/instagram.png" alt="instagram" width={25} height={25} />
+        <Image src="/facebook.png" alt="facebook" width={24} height={24} />
+        <Image src="/instagram.png" alt="instagram" width={24} height={24} />
       </div>
-      <div className={styles.logo}>hellopettekblog</div>
+      <div className={styles.logo}>lamablog</div>
       <div className={styles.links}>
         <ThemeToggle />
-        <Link href="/">Homepage</Link>
-        <Link href="/">Contact</Link>
-        <Link href="/">About</Link>
+        <Link href="/" className={styles.link}>
+          Homepage
+        </Link>
+        <Link href="/" className={styles.link}>
+          Contact
+        </Link>
+        <Link href="/" className={styles.link}>
+          About
+        </Link>
         <AuthLinks />
       </div>
     </div>
