@@ -1,34 +1,18 @@
+import Featured from "@/components/featured/Featured";
 import styles from "./page.module.css";
-import Link from "next/Link";
+import CategoryList from "@/components/categoryList/CategoryList";
+import CardList from "@/components/cardList/CardList";
+import Menu from "@/components/Menu/Menu";
 
 export default function Home() {
   return (
-    <div>
-      <Link href="/">
-        <h1>
-          Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum
-          dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
-          amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem
-          ipsum
-        </h1>
-        dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
-        Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum
-        dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
-        Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum
-        dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
-        Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum
-        dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
-        Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum
-        dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
-        Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum
-        dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
-        Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum
-        dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
-        Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum
-        dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
-        Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum
-        dolor sit amet.
-      </Link>
+    <div className={styles.container}>
+      <Featured />
+      <CategoryList />
+      <div className={styles.content}>
+        <CardList />
+        <Menu />
+      </div>
     </div>
   );
 }
