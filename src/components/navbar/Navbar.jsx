@@ -13,7 +13,7 @@ const Navbar = () => {
         <Image src="/medium.png" alt="medium" width={24} height={24} />
         <Image src="/instagram.png" alt="instagram" width={24} height={24} />
       </div>
-      <div className={styles.logo}>lamablog</div>
+      <div className={styles.logo}>hellopettek</div>
       <div className={styles.links}>
         <ThemeToggle />
         <Link href="/" className={styles.link}>
