@@ -11,7 +11,8 @@ const Navbar = () => {
       <div className={styles.social}>
         <Image src="/twitter.png" alt="twitter" width={24} height={24} />
         <Image src="/medium.png" alt="medium" width={24} height={24} />
-        <Image src="/instagram.png" alt="instagram" width={24} height={24} />
+        <Image src="/behance.png" alt="behance" width={24} height={24} />
+        <Image src="/github.png" alt="github" width={24} height={24} />
       </div>
       <div className={styles.logo}>hellopettek</div>
       <div className={styles.links}>

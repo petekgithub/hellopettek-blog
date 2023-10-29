@@ -21,10 +21,10 @@ const Footer = () => {
           dolor sit amet. Lorem ipsum dolor sit amet.
         </p>
         <div className={styles.icons}>
-          <Image src="/facebook.png" alt="" width={18} height={18} />
-          <Image src="/instagram.png" alt="" width={18} height={18} />
-          <Image src="/twitter.png" alt="" width={18} height={18} />
-          <Image src="/medium.png" alt="" width={18} height={18} />
+          <Image src="/twitter.png" alt="twitter" width={20} height={20} />
+          <Image src="/medium.png" alt="medium" width={20} height={20} />
+          <Image src="/behance.png" alt="behance" width={20} height={20} />
+          <Image src="/github.png" alt="github" width={20} height={20} />
         </div>
       </div>
       <div className={styles.links}>
@@ -44,10 +44,10 @@ const Footer = () => {
         </div>
         <div className={styles.list}>
           <span className={styles.listTitle}>Social</span>
-          <Link href="/">Facebook</Link>
-          <Link href="/">Instagram</Link>
           <Link href="/">Twitter</Link>
           <Link href="/">Medium</Link>
+          <Link href="/">Behance</Link>
+          <Link href="/">Github</Link>
         </div>
       </div>
     </div>
