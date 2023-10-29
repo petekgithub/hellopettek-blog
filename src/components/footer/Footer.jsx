@@ -14,7 +14,7 @@ const Footer = () => {
             width={50}
             height={50}
           />
-          <h1 className={styles.logoText}>HelloPettek Blog</h1>
+          <h1 className={styles.logoText}>HelloPettek</h1>
         </div>
         <p className={styles.desc}>
           Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum
