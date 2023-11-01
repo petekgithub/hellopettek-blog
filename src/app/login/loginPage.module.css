@@ -23,7 +23,7 @@
   align-items: center;
   justify-content: center;
 }
-.socialButton::first-child {
+.socialButton:first-child {
   background-color: #ff5555;
 }
 .socialButton:nth-child(2) {
