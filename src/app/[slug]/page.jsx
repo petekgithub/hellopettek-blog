@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./singlePage.module.css";
 import Menu from "@/components/Menu/Menu";
 import Image from "next/image";
+import Comments from "@/components/comments/Comments";
 
 const SinglePage = () => {
   return (
@@ -24,7 +25,38 @@ const SinglePage = () => {
         </div>
       </div>
       <div className={styles.content}>
-        <div className={styles.post}></div>
+        <div className={styles.post}>
+          <div className={styles.description}>
+            <p>
+              Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum
+              dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+              amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+              Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+            </p>
+            <h2>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</h2>
+            <p>
+              Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum
+              dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+              amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+              Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum
+              dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+              amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+              Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum
+              dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+              amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+              Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+          <div className={styles.comment}>
+            <Comments />
+          </div>
+        </div>
         <Menu />
       </div>
     </div>
