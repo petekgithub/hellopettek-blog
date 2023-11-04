@@ -7,7 +7,6 @@ import { useRouter } from "next/navigation";
 
 const LoginPage = () => {
   const { data, status } = useSession();
-  //console.log(data, status);
 
   const router = useRouter();
 
