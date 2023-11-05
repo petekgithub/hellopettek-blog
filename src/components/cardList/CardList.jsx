@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./cardList.module.css";
-import Pagination from "../pagination/Pagination";
 import Image from "next/image";
 import Card from "../card/Card";
+import Pagination from "../Pagination/Pagination";
 
 const getData = async (page, cat) => {
   const res = await fetch(
