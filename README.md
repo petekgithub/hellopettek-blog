@@ -1,8 +1,10 @@
-### Next.js Responsive BLog App
+### Next.js Responsive Blog App
 
-    _CSS Responsive Layout
-    _CSS Dark Mode Theme Toggle Design
-    _Pagination Button Design
-    _How to Sign in with Google
-    _Prisma Blog App Schema
-    _SWR Mutation
+    ***CSS Responsive Layout***
+    ***CSS Dark Mode Theme Toggle Design***
+    ***Pagination Button Design***
+    ***How to Sign in with Google***
+    ***Prisma Blog App Schema***
+    ***SWR Mutation***
+
+
